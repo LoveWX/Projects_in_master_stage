@@ -10,7 +10,7 @@ Projects_in_master_stage
 该系统仿真乱针绣这一中国传统工艺，为国内首创。系统能够对于输入的图片自动生成乱针绣模拟效果，同时提供用户修改各个参数的交互式方法。该系统为个人毕业设计，使用**VS2010**+**MFC**+OpenCV开发，约40,000行代码。该项目位于文件夹"CMagicCabsine_v2013"中。
 
 ### 乱针绣模拟赤蓝花甲虫效果图
-包含使用该系统对于《完美世界：赤焰赞歌》中怪物赤蓝花甲虫的模拟图，如下图所示，模拟图(乱针绣模拟赤蓝花甲虫效果图.jpg)可放大至能看清每根绣线的级别。
+包含使用该系统对于《完美世界：赤焰赞歌》中怪物赤蓝花甲虫的模拟图，如下图所示，点击模拟图(乱针绣赤蓝花甲虫效果图.jpg)可放大至能看清每根绣线的级别。
 ![](https://github.com/LoveWX/Projects_in_master_stage/raw/master/%E5%AE%8C%E7%BE%8E%E4%B8%96%E7%95%8C_%E8%B5%A4%E7%84%B0%E8%B5%9E%E6%AD%8C_%E8%B5%A4%E8%93%9D%E8%8A%B1%E7%94%B2%E8%99%AB.jpg)
 ![](https://github.com/LoveWX/Projects_in_master_stage/raw/master/%E4%B9%B1%E9%92%88%E7%BB%A3_%E8%B5%A4%E8%93%9D%E8%8A%B1%E7%94%B2%E8%99%AB_%E6%95%88%E6%9E%9C%E5%9B%BE.jpg)
 
