@@ -11,7 +11,7 @@ Projects_in_master_stage
 
 ### 乱针绣模拟赤蓝花甲虫效果图
 包含使用该系统对于《完美世界：赤焰赞歌》中怪物赤蓝花甲虫的模拟图，如下图所示，模拟图(乱针绣模拟赤蓝花甲虫效果图.jpg)可放大至能看清每根绣线的级别。
-![](https://github.com/LoveWX/Projects_in_master_stage/blob/master/%E8%B5%A4%E8%93%9D%E8%8A%B1%E7%94%B2%E8%99%AB.bmp)
+![](https://github.com/LoveWX/Projects_in_master_stage/raw/master/%E8%B5%A4%E8%93%9D%E8%8A%B1%E7%94%B2%E8%99%AB.bmp)
 ![](图片地址2)
 
 # 基于颜色直方图的图片搜索系统
