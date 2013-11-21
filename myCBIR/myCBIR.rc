@@ -1,0 +1,258 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\myCBIR.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\myCBIR.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 myCBIR"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "myCBIR 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2013",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_MYCBIR_DIALOG DIALOGEX 0, 0, 501, 444
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "myCBIR"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,315,20,50,20
+    PUSHBUTTON      "退出",IDCANCEL,315,46,50,20
+    LTEXT           "请选择要查询的图像：",IDC_STATIC,15,15,105,8
+    CONTROL         "",IDC_ShowBox01,"Static",SS_BLACKFRAME,15,109,91,64
+    PUSHBUTTON      "浏览...",IDC_BUTTON1,165,31,34,16
+    CONTROL         "",IDC_srcImageShowBox,"Static",SS_BLACKFRAME,213,17,91,
+                    64
+    EDITTEXT        IDC_EDIT1,15,31,145,16,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "查询结果(前20)：(排名)图片名称 相似度(0~1)",IDC_STATIC,
+                    15,92,176,8
+    CONTROL         "",IDC_ShowBox03,"Static",SS_BLACKFRAME,206,109,91,64
+    CONTROL         "",IDC_ShowBox04,"Static",SS_BLACKFRAME,302,109,91,64
+    CONTROL         "",IDC_ShowBox05,"Static",SS_BLACKFRAME,398,109,91,64
+    CONTROL         "",IDC_ShowBox06,"Static",SS_BLACKFRAME,15,193,91,64
+    CONTROL         "",IDC_ShowBox07,"Static",SS_BLACKFRAME,111,193,91,64
+    CONTROL         "",IDC_ShowBox08,"Static",SS_BLACKFRAME,206,193,91,64
+    CONTROL         "",IDC_ShowBox09,"Static",SS_BLACKFRAME,302,193,91,64
+    CONTROL         "",IDC_ShowBox10,"Static",SS_BLACKFRAME,398,193,91,64
+    LTEXT           "(1)",IDC_STATIC_RES01,15,178,86,11
+    CONTROL         "",IDC_ShowBox11,"Static",SS_BLACKFRAME,15,276,91,64
+    CONTROL         "",IDC_ShowBox12,"Static",SS_BLACKFRAME,111,276,91,64
+    CONTROL         "",IDC_ShowBox13,"Static",SS_BLACKFRAME,206,276,91,64
+    CONTROL         "",IDC_ShowBox14,"Static",SS_BLACKFRAME,302,276,91,64
+    CONTROL         "",IDC_ShowBox15,"Static",SS_BLACKFRAME,398,276,91,64
+    CONTROL         "",IDC_ShowBox16,"Static",SS_BLACKFRAME,15,359,91,64
+    CONTROL         "",IDC_ShowBox17,"Static",SS_BLACKFRAME,111,359,91,64
+    CONTROL         "",IDC_ShowBox18,"Static",SS_BLACKFRAME,206,359,91,64
+    CONTROL         "",IDC_ShowBox19,"Static",SS_BLACKFRAME,302,359,91,64
+    CONTROL         "",IDC_ShowBox20,"Static",SS_BLACKFRAME,398,359,91,64
+    CONTROL         "",IDC_ShowBox02,"Static",SS_BLACKFRAME,111,109,91,64
+    LTEXT           "(2)",IDC_STATIC_RES02,111,178,86,11
+    LTEXT           "(3)",IDC_STATIC_RES03,206,178,86,11
+    LTEXT           "(4)",IDC_STATIC_RES04,302,178,86,11
+    LTEXT           "(5)",IDC_STATIC_RES05,398,178,86,11
+    LTEXT           "(6)",IDC_STATIC_RES06,15,261,86,11
+    LTEXT           "(7)",IDC_STATIC_RES07,111,261,86,11
+    LTEXT           "(8)",IDC_STATIC_RES08,206,261,86,11
+    LTEXT           "(9)",IDC_STATIC_RES09,302,261,86,11
+    LTEXT           "(10)",IDC_STATIC_RES10,398,261,86,11
+    LTEXT           "(11)",IDC_STATIC_RES11,15,344,86,11
+    LTEXT           "(12)",IDC_STATIC_RES12,111,344,86,11
+    LTEXT           "(13)",IDC_STATIC_RES13,206,344,86,11
+    LTEXT           "(14)",IDC_STATIC_RES14,302,344,86,11
+    LTEXT           "(15)",IDC_STATIC_RES15,398,344,86,11
+    LTEXT           "(16)",IDC_STATIC_RES16,15,425,86,11
+    LTEXT           "(17)",IDC_STATIC_RES17,111,425,86,11
+    LTEXT           "(18)",IDC_STATIC_RES18,206,425,86,11
+    LTEXT           "(19)",IDC_STATIC_RES19,302,425,86,11
+    LTEXT           "(20)",IDC_STATIC_RES20,398,425,86,11
+    LTEXT           "查询时请等待图像载入完成后点击右侧的""确定""按钮：",
+                    IDC_STATIC,15,57,196,12
+    RTEXT           "0",IDC_STATIC_calcedPic,152,71,18,16
+    LTEXT           "/ 9000",IDC_STATIC_sizeOfPool,173,71,27,16
+    LTEXT           "(若因为窗口失去焦点而导致图片不能显示请点击""确定""恢复)",
+                    IDC_STATIC,315,76,110,18
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "myCBIR Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "myCBIR\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "myCBIR.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "myCBIR 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_MYCBIR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 myCBIR(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\myCBIR.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
