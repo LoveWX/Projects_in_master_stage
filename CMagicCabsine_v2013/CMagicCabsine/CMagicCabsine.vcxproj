@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{44C1B1ED-C238-4B23-AFE5-9B767E216699}</ProjectGuid>
+    <RootNamespace>CMagicCabsine</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\software\OpenCV2.1\vc2010src\include\opencv;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\software\OpenCV2.1\vc2010src\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\software\OpenCV2.1\vc2010src\include\opencv;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\software\OpenCV2.1\vc2010src\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>cxcore210d.lib;cv210d.lib;highgui210d.lib;ml210d.lib;cvaux210d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>cxcore210.lib;cv210.lib;highgui210.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="CMagicCabsine.reg" />
+    <None Include="CMagicCabsineICON.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bmp00001.bmp" />
+    <None Include="res\bmp00002.bmp" />
+    <None Include="res\bmp00003.bmp" />
+    <None Include="res\CMagicCabsine.ico" />
+    <None Include="res\CMagicCabsine.rc2" />
+    <None Include="res\CMagicCabsineDoc.ico" />
+    <None Include="res\CMagicCabsineICON.ico" />
+    <None Include="res\properties.bmp" />
+    <None Include="res\properties_hc.bmp" />
+    <None Include="res\properties_wnd.ico" />
+    <None Include="res\properties_wnd_hc.ico" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\toolbar2.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\toolbar3.bmp" />
+    <None Include="res\toolbar4.bmp" />
+    <None Include="res\toolbar5.bmp" />
+    <None Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="analogdisplay.h" />
+    <ClInclude Include="bresenham.h" />
+    <ClInclude Include="CGenerateSmallImage.h" />
+    <ClInclude Include="CMagicCabsine.h" />
+    <ClInclude Include="CMagicCabsineChaosStitch.h" />
+    <ClInclude Include="CMagicCabsineConfig.h" />
+    <ClInclude Include="CMagicCabsineDataForSimulating.h" />
+    <ClInclude Include="CMagicCabsineDisplayView.h" />
+    <ClInclude Include="CMagicCabsineDoc.h" />
+    <ClInclude Include="CMagicCabsineInteractiveView.h" />
+    <ClInclude Include="CMagicCabsineLeftView.h" />
+    <ClInclude Include="CMagicCabsineOrderlessStitch.h" />
+    <ClInclude Include="CMagicCabsinePortionProperty.h" />
+    <ClInclude Include="CMagicCabsinePortionProperty_AverageColor.h" />
+    <ClInclude Include="CMagicCabsineProject.h" />
+    <ClInclude Include="CMagicCabsineRightView.h" />
+    <ClInclude Include="CMagicCabsineSimulateData.h" />
+    <ClInclude Include="CMagicCabsineSimulateData_Test.h" />
+    <ClInclude Include="CMagicCabsineSimulateView.h" />
+    <ClInclude Include="CMagicCabsineSimuLine.h" />
+    <ClInclude Include="CMagicCabsineSimuLineSet.h" />
+    <ClInclude Include="CMagicCabsineSplitData.h" />
+    <ClInclude Include="CMagicCabsineSplitData_GraphBase.h" />
+    <ClInclude Include="CMagicCabsineSplitData_MeanShift.h" />
+    <ClInclude Include="CMagicCabsineStitchLibrary.h" />
+    <ClInclude Include="CMagicCabsineThreadLibrary.h" />
+    <ClInclude Include="CMagicCabsineUndoStack.h" />
+    <ClInclude Include="CMagicCabsineUniversalProperty.h" />
+    <ClInclude Include="CMagicCabsineUniversalProperty_CLD.h" />
+    <ClInclude Include="CMagicCabsineUniversalProperty_feature_texture_spectral_DFT.h" />
+    <ClInclude Include="CMagicCabsineUniversalProperty_feature_texture_spectral_gabor.h" />
+    <ClInclude Include="CMagicCabsineUniversalProperty_Saliency.h" />
+    <ClInclude Include="CMagicCabsineUniversalProperty_VectorField.h" />
+    <ClInclude Include="CMagicCabsineView.h" />
+    <ClInclude Include="CmFile.h" />
+    <ClInclude Include="CmLog.h" />
+    <ClInclude Include="CmTimer.h" />
+    <ClInclude Include="copyimage.h" />
+    <ClInclude Include="disjoint-set.h" />
+    <ClInclude Include="ETF.h" />
+    <ClInclude Include="fdog.h" />
+    <ClInclude Include="FixedSplitterWnd.h" />
+    <ClInclude Include="ImageRegionOperator.h" />
+    <ClInclude Include="imatrix.h" />
+    <ClInclude Include="CMagicCabsineRegionModifyView.h" />
+    <ClInclude Include="MagicCabsineConfigDlg.h" />
+    <ClInclude Include="MagicCabsineShowBaseView.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="matrix.h" />
+    <ClInclude Include="Meanshift(C)\ms.h" />
+    <ClInclude Include="Meanshift(C)\msImageProcessor.h" />
+    <ClInclude Include="Meanshift(C)\msSys.h" />
+    <ClInclude Include="Meanshift(C)\RAList.h" />
+    <ClInclude Include="Meanshift(C)\rlist.h" />
+    <ClInclude Include="Meanshift(C)\tdef.h" />
+    <ClInclude Include="myvec.h" />
+    <ClInclude Include="ProjectCanvasNewDLG.h" />
+    <ClInclude Include="ProjectImageNewDLG.h" />
+    <ClInclude Include="ProjectNewDLG.h" />
+    <ClInclude Include="PropertiesWnd.h" />
+    <ClInclude Include="random.h" />
+    <ClInclude Include="RegionModifyDLG.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Saliency.h" />
+    <ClInclude Include="segment-graph.h" />
+    <ClInclude Include="segment-image.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="stdhead.h" />
+    <ClInclude Include="StitchLibraryDLG.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TextureSynthesis.h" />
+    <ClInclude Include="ThreadLibraryDLG.h" />
+    <ClInclude Include="VectorShow.h" />
+    <ClInclude Include="WzdDirDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="analogdisplay.cpp" />
+    <ClCompile Include="bresenham.cpp" />
+    <ClCompile Include="CGenerateSmallImage.cpp" />
+    <ClCompile Include="CMagicCabsine.cpp" />
+    <ClCompile Include="CMagicCabsineChaosStitch.cpp" />
+    <ClCompile Include="CMagicCabsineConfig.cpp" />
+    <ClCompile Include="CMagicCabsineDataForSimulating.cpp" />
+    <ClCompile Include="CMagicCabsineDisplayView.cpp" />
+    <ClCompile Include="CMagicCabsineDoc.cpp" />
+    <ClCompile Include="CMagicCabsineInteractiveView.cpp" />
+    <ClCompile Include="CMagicCabsineLeftView.cpp" />
+    <ClCompile Include="CMagicCabsineOrderlessStitch.cpp" />
+    <ClCompile Include="CMagicCabsinePortionProperty.cpp" />
+    <ClCompile Include="CMagicCabsinePortionProperty_AverageColor.cpp" />
+    <ClCompile Include="CMagicCabsineProject.cpp" />
+    <ClCompile Include="CMagicCabsineRightView.cpp" />
+    <ClCompile Include="CMagicCabsineSimulateData.cpp" />
+    <ClCompile Include="CMagicCabsineSimulateData_Test.cpp" />
+    <ClCompile Include="CMagicCabsineSimulateView.cpp" />
+    <ClCompile Include="CMagicCabsineSimuLine.cpp" />
+    <ClCompile Include="CMagicCabsineSimuLineSet.cpp" />
+    <ClCompile Include="CMagicCabsineSplitData.cpp" />
+    <ClCompile Include="CMagicCabsineSplitData_GraphBase.cpp" />
+    <ClCompile Include="CMagicCabsineSplitData_MeanShift.cpp" />
+    <ClCompile Include="CMagicCabsineStitchLibrary.cpp" />
+    <ClCompile Include="CMagicCabsineThreadLibrary.cpp" />
+    <ClCompile Include="CMagicCabsineUndoStack.cpp" />
+    <ClCompile Include="CMagicCabsineUniversalProperty.cpp" />
+    <ClCompile Include="CMagicCabsineUniversalProperty_CLD.cpp" />
+    <ClCompile Include="CMagicCabsineUniversalProperty_feature_texture_spectral_DFT.cpp" />
+    <ClCompile Include="CMagicCabsineUniversalProperty_feature_texture_spectral_gabor.cpp" />
+    <ClCompile Include="CMagicCabsineUniversalProperty_Saliency.cpp" />
+    <ClCompile Include="CMagicCabsineUniversalProperty_VectorField.cpp" />
+    <ClCompile Include="CMagicCabsineView.cpp" />
+    <ClCompile Include="CmFile.cpp" />
+    <ClCompile Include="CmLog.cpp" />
+    <ClCompile Include="CmTimer.cpp" />
+    <ClCompile Include="copyimage.cpp" />
+    <ClCompile Include="ETF.cpp" />
+    <ClCompile Include="fdog.cpp" />
+    <ClCompile Include="FixedSplitterWnd.cpp" />
+    <ClCompile Include="CMagicCabsineRegionModifyView.cpp" />
+    <ClCompile Include="ImageRegionOperator.cpp" />
+    <ClCompile Include="MagicCabsineConfigDlg.cpp" />
+    <ClCompile Include="MagicCabsineRegionMarkDlg.cpp" />
+    <ClCompile Include="MagicCabsineShowBaseView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Meanshift(C)\ms.cpp" />
+    <ClCompile Include="Meanshift(C)\msImageProcessor.cpp" />
+    <ClCompile Include="Meanshift(C)\msSys.cpp" />
+    <ClCompile Include="Meanshift(C)\RAList.cpp" />
+    <ClCompile Include="Meanshift(C)\rlist.cpp" />
+    <ClCompile Include="ProjectCanvasNewDLG.cpp" />
+    <ClCompile Include="ProjectImageNewDLG.cpp" />
+    <ClCompile Include="ProjectNewDLG.cpp" />
+    <ClCompile Include="PropertiesWnd.cpp" />
+    <ClCompile Include="random.cpp" />
+    <ClCompile Include="RegionModifyDLG.cpp" />
+    <ClCompile Include="Saliency.cpp" />
+    <ClCompile Include="segment-image.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StitchLibraryDLG.cpp" />
+    <ClCompile Include="TextureSynthesis.cpp" />
+    <ClCompile Include="ThreadLibraryDLG.cpp" />
+    <ClCompile Include="VectorShow.cpp" />
+    <ClCompile Include="WzdDirDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CMagicCabsine.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="CMagicCabsine.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

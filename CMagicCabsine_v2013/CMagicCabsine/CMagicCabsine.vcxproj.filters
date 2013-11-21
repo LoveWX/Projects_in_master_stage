@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\helpFunction">
+      <UniqueIdentifier>{ac580e3c-ffb8-4ccb-89d7-5ba64b1af824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\helpFunction">
+      <UniqueIdentifier>{47817cd0-027a-4a3c-8d95-b0de8a3e2670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UniversalProperty">
+      <UniqueIdentifier>{fd7b7048-0468-4e40-a6cd-90044433879f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UniversalProperty\UniversalProperty_CLD">
+      <UniqueIdentifier>{41f1388d-53f8-4222-abf1-70b506c6cb4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UniversalProperty\UniversalProperty_Saliency">
+      <UniqueIdentifier>{176c4480-35f1-407b-bc7b-5bed10aa9e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UniversalProperty\UniversalProperty_VectorField">
+      <UniqueIdentifier>{7edeb73f-0f9b-4fef-bf15-d5769df956c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UniversalProperty\UniversalProperty_Other">
+      <UniqueIdentifier>{196e9d65-9269-46e5-ac65-3b49d3122bd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\PortionProperty">
+      <UniqueIdentifier>{4bd44a08-b62e-4040-a373-06d4ac25e5e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\PortionProperty\PortionProperty_AverageColor">
+      <UniqueIdentifier>{fdb8444c-e45c-4401-88c6-c1fe463995d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UniversalProperty">
+      <UniqueIdentifier>{50d43b24-8e1c-4d93-8483-5dea85c28134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UniversalProperty\UniversalProperty_CLD">
+      <UniqueIdentifier>{0b167567-24f0-449e-8772-3e637e9047a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UniversalProperty\UniversalProperty_Saliency">
+      <UniqueIdentifier>{36c95e0e-7b6c-413f-b103-fab40f7e916e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UniversalProperty\UniversalProperty_VectorField">
+      <UniqueIdentifier>{97e3b90d-db38-471d-8b49-5cec990876a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UniversalProperty\UniversalProperty_Other">
+      <UniqueIdentifier>{7e56f3a6-f33a-42c5-a6de-13e0b261ebd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Dialogs">
+      <UniqueIdentifier>{bc329972-63af-4ab0-a4be-358f9c7b766c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Dialogs">
+      <UniqueIdentifier>{f777eadb-b687-460a-bc42-c51c2d7d8e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\PortionProperty">
+      <UniqueIdentifier>{96dbaad7-ae95-4af9-9cc7-ff5af0d8f3fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\PortionProperty\PortionProperty_AverageColor">
+      <UniqueIdentifier>{36cdb911-e671-4964-a567-b75327ee3d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\View">
+      <UniqueIdentifier>{9059d440-349c-4559-8a54-7ea13668c174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SplitData">
+      <UniqueIdentifier>{7502e782-9efc-41c2-8f24-360118515c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\View">
+      <UniqueIdentifier>{91a01abb-bed1-49ed-9d15-f85c8635a134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SimulateData">
+      <UniqueIdentifier>{48a210e7-6d9d-4910-b475-7ce90e9c048e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SplitData">
+      <UniqueIdentifier>{d1b4e571-f04d-4daa-a863-bb1785ea0a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SimulateData">
+      <UniqueIdentifier>{2c3ed1b7-7260-4a00-a522-ba466261bd9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SplitData\MeanShift">
+      <UniqueIdentifier>{67fc4c22-1048-4b93-a110-686019ca51ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SplitData\MeanShift">
+      <UniqueIdentifier>{2e6f8444-8f41-45d1-bbe8-cdedb50a1542}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="CMagicCabsine.reg" />
+    <None Include="res\properties_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CMagicCabsine.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CMagicCabsineDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CMagicCabsine.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00002.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00003.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar5.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="CMagicCabsineICON.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CMagicCabsineICON.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CMagicCabsine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedSplitterWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineProject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineUniversalProperty.h">
+      <Filter>头文件\UniversalProperty</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineUniversalProperty_CLD.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_CLD</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineUniversalProperty_Saliency.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_Saliency</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineUniversalProperty_VectorField.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_VectorField</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineUniversalProperty_feature_texture_spectral_DFT.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_Other</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineUniversalProperty_feature_texture_spectral_gabor.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_Other</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsinePortionProperty.h">
+      <Filter>头文件\PortionProperty</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsinePortionProperty_AverageColor.h">
+      <Filter>头文件\PortionProperty\PortionProperty_AverageColor</Filter>
+    </ClInclude>
+    <ClInclude Include="imatrix.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_CLD</Filter>
+    </ClInclude>
+    <ClInclude Include="ETF.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_CLD</Filter>
+    </ClInclude>
+    <ClInclude Include="fdog.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_CLD</Filter>
+    </ClInclude>
+    <ClInclude Include="myvec.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_CLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Saliency.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_Saliency</Filter>
+    </ClInclude>
+    <ClInclude Include="stdhead.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_Saliency</Filter>
+    </ClInclude>
+    <ClInclude Include="segment-image.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_Saliency</Filter>
+    </ClInclude>
+    <ClInclude Include="CmFile.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_Saliency</Filter>
+    </ClInclude>
+    <ClInclude Include="CmLog.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_Saliency</Filter>
+    </ClInclude>
+    <ClInclude Include="CmTimer.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_Saliency</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorShow.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_VectorField</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_CLD</Filter>
+    </ClInclude>
+    <ClInclude Include="segment-graph.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_Saliency</Filter>
+    </ClInclude>
+    <ClInclude Include="disjoint-set.h">
+      <Filter>头文件\UniversalProperty\UniversalProperty_Saliency</Filter>
+    </ClInclude>
+    <ClInclude Include="bresenham.h">
+      <Filter>头文件\helpFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectCanvasNewDLG.h">
+      <Filter>头文件\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectNewDLG.h">
+      <Filter>头文件\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectImageNewDLG.h">
+      <Filter>头文件\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineLeftView.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineInteractiveView.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineDisplayView.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineRightView.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineSimulateView.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineRegionModifyView.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineSplitData.h">
+      <Filter>头文件\SplitData</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineSimulateData.h">
+      <Filter>头文件\SimulateData</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineSimuLine.h">
+      <Filter>头文件\SimulateData</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineSimulateData_Test.h">
+      <Filter>头文件\SimulateData</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineDataForSimulating.h">
+      <Filter>头文件\SimulateData</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineSimuLineSet.h">
+      <Filter>头文件\SimulateData</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineChaosStitch.h">
+      <Filter>头文件\SimulateData</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineOrderlessStitch.h">
+      <Filter>头文件\SimulateData</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineStitchLibrary.h">
+      <Filter>头文件\SimulateData</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>头文件\helpFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="analogdisplay.h">
+      <Filter>头文件\SimulateData</Filter>
+    </ClInclude>
+    <ClInclude Include="CGenerateSmallImage.h">
+      <Filter>头文件\SimulateData</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureSynthesis.h">
+      <Filter>头文件\SimulateData</Filter>
+    </ClInclude>
+    <ClInclude Include="copyimage.h">
+      <Filter>头文件\SimulateData</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineSplitData_MeanShift.h">
+      <Filter>头文件\SplitData\MeanShift</Filter>
+    </ClInclude>
+    <ClInclude Include="Meanshift(C)\tdef.h">
+      <Filter>头文件\SplitData\MeanShift</Filter>
+    </ClInclude>
+    <ClInclude Include="Meanshift(C)\rlist.h">
+      <Filter>头文件\SplitData\MeanShift</Filter>
+    </ClInclude>
+    <ClInclude Include="Meanshift(C)\RAList.h">
+      <Filter>头文件\SplitData\MeanShift</Filter>
+    </ClInclude>
+    <ClInclude Include="Meanshift(C)\msSys.h">
+      <Filter>头文件\SplitData\MeanShift</Filter>
+    </ClInclude>
+    <ClInclude Include="Meanshift(C)\msImageProcessor.h">
+      <Filter>头文件\SplitData\MeanShift</Filter>
+    </ClInclude>
+    <ClInclude Include="Meanshift(C)\ms.h">
+      <Filter>头文件\SplitData\MeanShift</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicCabsineShowBaseView.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineThreadLibrary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadLibraryDLG.h">
+      <Filter>头文件\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="WzdDirDlg.h">
+      <Filter>头文件\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="StitchLibraryDLG.h">
+      <Filter>头文件\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RegionModifyDLG.h">
+      <Filter>头文件\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicCabsineConfigDlg.h">
+      <Filter>头文件\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageRegionOperator.h">
+      <Filter>头文件\SplitData</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineSplitData_GraphBase.h">
+      <Filter>头文件\SplitData</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagicCabsineUndoStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CMagicCabsine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedSplitterWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineProject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bresenham.cpp">
+      <Filter>源文件\helpFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineUniversalProperty_CLD.cpp">
+      <Filter>源文件\UniversalProperty\UniversalProperty_CLD</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineUniversalProperty_Saliency.cpp">
+      <Filter>源文件\UniversalProperty\UniversalProperty_Saliency</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineUniversalProperty_VectorField.cpp">
+      <Filter>源文件\UniversalProperty\UniversalProperty_VectorField</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineUniversalProperty_feature_texture_spectral_DFT.cpp">
+      <Filter>源文件\UniversalProperty\UniversalProperty_Other</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineUniversalProperty_feature_texture_spectral_gabor.cpp">
+      <Filter>源文件\UniversalProperty\UniversalProperty_Other</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineUniversalProperty.cpp">
+      <Filter>源文件\UniversalProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="ETF.cpp">
+      <Filter>源文件\UniversalProperty\UniversalProperty_CLD</Filter>
+    </ClCompile>
+    <ClCompile Include="fdog.cpp">
+      <Filter>源文件\UniversalProperty\UniversalProperty_CLD</Filter>
+    </ClCompile>
+    <ClCompile Include="CmFile.cpp">
+      <Filter>源文件\UniversalProperty\UniversalProperty_Saliency</Filter>
+    </ClCompile>
+    <ClCompile Include="CmLog.cpp">
+      <Filter>源文件\UniversalProperty\UniversalProperty_Saliency</Filter>
+    </ClCompile>
+    <ClCompile Include="CmTimer.cpp">
+      <Filter>源文件\UniversalProperty\UniversalProperty_Saliency</Filter>
+    </ClCompile>
+    <ClCompile Include="Saliency.cpp">
+      <Filter>源文件\UniversalProperty\UniversalProperty_Saliency</Filter>
+    </ClCompile>
+    <ClCompile Include="segment-image.cpp">
+      <Filter>源文件\UniversalProperty\UniversalProperty_Saliency</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorShow.cpp">
+      <Filter>源文件\UniversalProperty\UniversalProperty_VectorField</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectCanvasNewDLG.cpp">
+      <Filter>源文件\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectNewDLG.cpp">
+      <Filter>源文件\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectImageNewDLG.cpp">
+      <Filter>源文件\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsinePortionProperty.cpp">
+      <Filter>源文件\PortionProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsinePortionProperty_AverageColor.cpp">
+      <Filter>源文件\PortionProperty\PortionProperty_AverageColor</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineSimulateView.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineRegionModifyView.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineInteractiveView.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineDisplayView.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineRightView.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineLeftView.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineSplitData.cpp">
+      <Filter>源文件\SplitData</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineSimuLine.cpp">
+      <Filter>源文件\SimulateData</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineSimulateData.cpp">
+      <Filter>源文件\SimulateData</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineSimulateData_Test.cpp">
+      <Filter>源文件\SimulateData</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineDataForSimulating.cpp">
+      <Filter>源文件\SimulateData</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineSimuLineSet.cpp">
+      <Filter>源文件\SimulateData</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineChaosStitch.cpp">
+      <Filter>源文件\SimulateData</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineOrderlessStitch.cpp">
+      <Filter>源文件\SimulateData</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineStitchLibrary.cpp">
+      <Filter>源文件\SimulateData</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cpp">
+      <Filter>源文件\helpFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="analogdisplay.cpp">
+      <Filter>源文件\SimulateData</Filter>
+    </ClCompile>
+    <ClCompile Include="CGenerateSmallImage.cpp">
+      <Filter>源文件\SimulateData</Filter>
+    </ClCompile>
+    <ClCompile Include="copyimage.cpp">
+      <Filter>源文件\SimulateData</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureSynthesis.cpp">
+      <Filter>源文件\SimulateData</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineSplitData_MeanShift.cpp">
+      <Filter>源文件\SplitData\MeanShift</Filter>
+    </ClCompile>
+    <ClCompile Include="Meanshift(C)\ms.cpp">
+      <Filter>源文件\SplitData\MeanShift</Filter>
+    </ClCompile>
+    <ClCompile Include="Meanshift(C)\msImageProcessor.cpp">
+      <Filter>源文件\SplitData\MeanShift</Filter>
+    </ClCompile>
+    <ClCompile Include="Meanshift(C)\msSys.cpp">
+      <Filter>源文件\SplitData\MeanShift</Filter>
+    </ClCompile>
+    <ClCompile Include="Meanshift(C)\RAList.cpp">
+      <Filter>源文件\SplitData\MeanShift</Filter>
+    </ClCompile>
+    <ClCompile Include="Meanshift(C)\rlist.cpp">
+      <Filter>源文件\SplitData\MeanShift</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicCabsineShowBaseView.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineThreadLibrary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadLibraryDLG.cpp">
+      <Filter>源文件\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="StitchLibraryDLG.cpp">
+      <Filter>源文件\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RegionModifyDLG.cpp">
+      <Filter>源文件\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicCabsineConfigDlg.cpp">
+      <Filter>源文件\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="WzdDirDlg.cpp">
+      <Filter>源文件\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicCabsineRegionMarkDlg.cpp">
+      <Filter>源文件\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageRegionOperator.cpp">
+      <Filter>源文件\SplitData</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineSplitData_GraphBase.cpp">
+      <Filter>源文件\SplitData</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagicCabsineUndoStack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CMagicCabsine.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

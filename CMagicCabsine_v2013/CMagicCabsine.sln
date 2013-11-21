@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CMagicCabsine", "CMagicCabsine\CMagicCabsine.vcxproj", "{44C1B1ED-C238-4B23-AFE5-9B767E216699}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MagicCabsineSetup", "MagicCabsineSetup\MagicCabsineSetup.vdproj", "{75967671-A312-4ACC-9C32-E076AB9AB58A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44C1B1ED-C238-4B23-AFE5-9B767E216699}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44C1B1ED-C238-4B23-AFE5-9B767E216699}.Debug|Win32.Build.0 = Debug|Win32
+		{44C1B1ED-C238-4B23-AFE5-9B767E216699}.Release|Win32.ActiveCfg = Release|Win32
+		{44C1B1ED-C238-4B23-AFE5-9B767E216699}.Release|Win32.Build.0 = Release|Win32
+		{75967671-A312-4ACC-9C32-E076AB9AB58A}.Debug|Win32.ActiveCfg = Debug
+		{75967671-A312-4ACC-9C32-E076AB9AB58A}.Release|Win32.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
