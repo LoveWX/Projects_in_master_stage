@@ -1,0 +1,15 @@
+Pin Diameter:
+Amplification Ratio:
+Camera Name:
+Focus:
+F Number:
+WaveLength:
+Collimated Focus:
+Array Length:
+position(T):
+LSF(T):
+position(S):
+LSF(S):
+Frequence(lp/mm):
+MTF(T):
+MTF(S):

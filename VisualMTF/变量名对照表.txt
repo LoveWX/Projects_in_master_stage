@@ -1,0 +1,7 @@
+ID_EDIT1	小孔直径	dPinDiameter
+ID_EDIT2	中继放大率	dAmplify
+ID_EDIT3	焦距		dFocusLength
+ID_EDIT4	F数		dFNumber
+ID_EDIT5	光源波长	dWaveLength
+ID_EDIT6	准直镜焦距	dLength
+ID_EDIT7	镜头名称	sLensName
